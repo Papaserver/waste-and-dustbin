@@ -27,12 +27,14 @@ public class Main {
             plasticBottle.clean();
             System.out.println(plasticBottle.isClean());
             dustbin.throwOutGarbage(plasticBottle);
+            dustbin.emptyContents();
+            System.out.println(dustbin.toString());
 
             dustbin.toString();
 
-//            dustbin.getHousewasteCount();
-//            dustbin.getPaperCount();
-//            dustbin.getPlasticCount();
+            dustbin.getHousewasteCount();
+            dustbin.getPaperCount();
+            dustbin.getPlasticCount();
 
     }
 }
